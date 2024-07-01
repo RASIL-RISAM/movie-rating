@@ -1,0 +1,58 @@
+.card {
+    font-family: monospace;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(126, 193, 234);
+    color: white;
+}
+
+.card li {
+    list-style-type: '✨';
+}
+
+.key {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(21, 3, 1);
+}
+
+.movie-name {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: rgb(27, 31, 2);            
+}
+
+.movie-name::before {
+    content: "🎬";
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row; /* Display items in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 200px; /* Set a fixed width for the cards */
+    box-sizing: border-box;
+}
+
+.movie-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.key {
+    font-weight: bold;
+}
+
